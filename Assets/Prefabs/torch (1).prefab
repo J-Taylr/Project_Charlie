@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721962866651637785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.58, y: 7.38, z: 1.919}
   m_LocalScale: {x: 0.5058869, y: 0.5058869, z: 0.5058869}
   m_Children:
@@ -747,7 +747,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -4780,7 +4780,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721962867974423706}
-  m_LocalRotation: {x: -0, y: 0, z: -0.26711738, w: 0.963664}
+  m_LocalRotation: {x: -0, y: 0, z: -0.2851799, w: 0.95847404}
   m_LocalPosition: {x: -0, y: 0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4801,8 +4801,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.778
-  m_Color: {r: 0.9150943, g: 0.67087704, b: 0.16834284, a: 1}
+  m_FalloffIntensity: 0.561
+  m_Color: {r: 0.9150943, g: 0.670877, b: 0.1683428, a: 1}
   m_Intensity: 2.68
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
@@ -4814,8 +4814,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 6.18
+  m_PointLightInnerRadius: 1.12
+  m_PointLightOuterRadius: 4.941822
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -4838,7 +4838,7 @@ Animator:
   m_GameObject: {fileID: 1721962867974423706}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 737c9df1c3721c141826aae621168da7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 11a5ed1b7940c574e8313b6f7cf5c13e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
