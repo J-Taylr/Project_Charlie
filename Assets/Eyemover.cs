@@ -26,7 +26,7 @@ public class Eyemover : MonoBehaviour
             randomPos.x += Random.Range(minRange, maxRange);
             randomPos.y += Random.Range(minRange, maxRange);
             reached = false;
-            print(randomPos);
+            //print(randomPos);
         }
 
         transform.position = (Vector3)Vector2.Lerp(transform.position, randomPos, Time.deltaTime * speed);
@@ -43,6 +43,6 @@ public class Eyemover : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         reached = true;
-        print("collided with" + gameObject.name);
+        //print("collided with" + gameObject.name);
     }
 }
