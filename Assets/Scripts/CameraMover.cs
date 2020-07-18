@@ -60,7 +60,6 @@ public class CameraMover : MonoBehaviour
     void ColliderTimer()
     {
         timeSinceCollided += Time.deltaTime;
-
         if (timeSinceCollided > collisionTimer)
         {
             isColliding = false;
@@ -77,4 +76,4 @@ public class CameraMover : MonoBehaviour
     {
         cam.transform.position = Vector3.Lerp(cam.transform.position, nextCamPos.transform.position, step);
     }
-}
+} 
